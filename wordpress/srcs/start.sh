@@ -1,1 +1,4 @@
-php --server 0.0.0.0:5050 --docroot /var/www/schips
+php-fpm7
+nginx -g "daemon off;"
+/usr/bin/supervisord -c /etc/supervisord.conf
+sh

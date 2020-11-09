@@ -11,4 +11,5 @@ COPY /srcs/start.sh /
 
 RUN	mkdir /etc/my.cnf.
 
+EXPOSE 3306
 ENTRYPOINT sh	start.sh
